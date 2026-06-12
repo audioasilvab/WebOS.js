@@ -8,27 +8,24 @@ Estamos actualizandolo para mejores cambios.
 
 ```mermaid
 gantt
-    title Proyecto WebOS.js
-    dateFormat YYYY-MM-DD
-    
-    section Planificación
-    Investigación de mercado :done, des1, 2026-06-01, 3d
-    Definición de requisitos :active, des2, after des1, 5d
-    
-    section Desarrollo Frontend
-    Diseño de interfaz :des3, after des2, 7d
-    Desarrollo componentes HTML/CSS :des4, after des3, 15d
-    Testing Frontend :des5, after des4, 5d
-    
-    section Desarrollo Backend
-    Arquitectura del sistema :des6, after des2, 8d
-    Desarrollo lógica Javascript :des7, after des6, 20d
-    Testing Backend :des8, after des7, 5d
-    
-    section Integración
-    Integración Frontend-Backend :des9, after des5, after des8, 7d
-    Testing completo :des10, after des9, 5d
-    Deployment :des11, after des10, 3d
+    title Project Timeline: Aug 2025 - Jan 2026
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b %d
+
+    section Phase 1
+    Phase 1           :a1, 2025-08-01, 42d
+
+    section Phase 2
+    Phase 2           :a2, 2025-09-07, 42d
+
+    section Phase 3
+    Phase 3           :a3, 2025-10-13, 42d
+
+    section Phase 4
+    Phase 4           :a4, 2025-11-18, 42d
+
+    section Phase 5
+    Phase 5           :a5, 2025-12-24, 42d
 ```
 
 ### Fases del Proyecto:
